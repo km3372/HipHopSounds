@@ -13,6 +13,7 @@
 		8D11911A1E97B00100D88962 /* HipHop_Sounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D1191181E97B00100D88962 /* HipHop_Sounds.xcdatamodeld */; };
 		8D11911C1E97B00100D88962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D11911B1E97B00100D88962 /* Assets.xcassets */; };
 		8D11911F1E97B00100D88962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D11911D1E97B00100D88962 /* LaunchScreen.storyboard */; };
+		8D1191271E97B9A100D88962 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1191261E97B9A100D88962 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D11911B1E97B00100D88962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D11911E1E97B00100D88962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D1191201E97B00200D88962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1191261E97B9A100D88962 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8D1191111E97B00100D88962 /* AppDelegate.swift */,
 				8D1191131E97B00100D88962 /* ViewController.swift */,
+				8D1191261E97B9A100D88962 /* SoundViewController.swift */,
 				8D1191151E97B00100D88962 /* Main.storyboard */,
 				8D11911B1E97B00100D88962 /* Assets.xcassets */,
 				8D11911D1E97B00100D88962 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1191271E97B9A100D88962 /* SoundViewController.swift in Sources */,
 				8D1191141E97B00100D88962 /* ViewController.swift in Sources */,
 				8D11911A1E97B00100D88962 /* HipHop_Sounds.xcdatamodeld in Sources */,
 				8D1191121E97B00100D88962 /* AppDelegate.swift in Sources */,
