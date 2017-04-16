@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52b-Yz-7ET" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-918" y="137"/>
+            <point key="canvasLocation" x="-849" y="135"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -57,9 +57,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="5aN-SJ-45E" id="Aq8-ON-R1O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-178" y="135"/>
         </scene>
         <!--Sound View Controller-->
         <scene sceneID="NFN-0I-dF6">
@@ -121,7 +125,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addButton" destination="XkU-NT-z7P" id="f92-gW-TVp"/>
+                        <outlet property="addButton" destination="XkU-NT-z7P" id="qxv-RE-FIC"/>
                         <outlet property="nameTextField" destination="pXz-7c-GDB" id="vJY-hj-gAl"/>
                         <outlet property="playButton" destination="ylb-sT-ZuQ" id="o2l-UY-LNj"/>
                         <outlet property="recordButton" destination="yFj-ni-nxb" id="bh7-w2-aFY"/>
