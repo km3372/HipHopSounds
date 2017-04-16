@@ -31,6 +31,7 @@ class SoundViewController: UIViewController {
         
         setupRecorder()
         playButton.isEnabled = false
+        addButton.isEnabled = false
     }
     
     func setupRecorder()  {
@@ -74,6 +75,7 @@ class SoundViewController: UIViewController {
             recordButton.setTitle("Record", for: .normal)
             
             playButton.isEnabled = true
+            addButton.isEnabled = true
         } else {
             // Start the Recording
             audioRecorder?.record()
@@ -100,6 +102,7 @@ class SoundViewController: UIViewController {
         sound.audio = NSData(contentsOf: audioURL!)
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController!.popViewController(animated: true)
         
     }
 
